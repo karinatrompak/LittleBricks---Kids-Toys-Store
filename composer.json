@@ -1,0 +1,24 @@
+{
+    "name": "sys4soft/store",
+    "description": "Loja Online",
+    "type": "project",
+    "authors": [
+        {
+            "name": "David Gomes",
+            "email": "david32534@esfundao.pt"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "mpdf/mpdf": "^6.1",
+        "dompdf/dompdf": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\" : "core/"
+        },
+        "files": [
+            "config.php"
+        ]
+    }
+}

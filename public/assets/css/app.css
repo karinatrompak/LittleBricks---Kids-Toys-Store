@@ -1,0 +1,80 @@
+/* app.css */
+
+/* * {
+    box-shadow: inset 0px 0px 1px rgba(255,0,0,1);
+} */
+
+.navegacao{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.navegacao3{
+    background-color: rgb(181, 181, 202);
+    color: black;
+}
+
+.navegacao2{
+    background-color: rgb(13, 110, 253);
+    color: rgb(0, 0, 0);
+}
+
+.rodape{
+    background-color: rgb(96, 159, 253);
+    color: white;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0px 10px;
+}
+
+.nav-item2{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.nav-item2:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+
+.espaco-fundo{
+    margin-bottom: 80px;
+}
+
+.box-produto{
+    border:1px solid rgb(150,150,150);
+    border-radius: 10px;
+}
+
+.btn-100{ min-width: 100px !important; }
+.btn-125{ min-width: 125px !important; }
+.btn-150{ min-width: 150px !important; }
+.btn-175{ min-width: 175px !important; }
+
+/* cores */
+.text-a1a1a1{
+    color: #a1a1a1;
+}
+
+.status-clicavel{
+    cursor: pointer;
+}
+
+.linha-ondulada {
+    border: 1px solid #000; /* Cor e largura da linha */
+    border-radius: 5px; /* Raio das curvas para criar um efeito ondulado */
+}
+
+.fab {
+    font-size: 24px; /* Adjust the size as needed */
+}
